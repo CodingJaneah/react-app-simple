@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from "react"
 import './App.css'
+import Button from './Components/Button.jsx'
 
 function App() {
   
   return (
     <>
-	<h1>Welcome to JSX</h1>
-	<button>Click Me</button>
+	<div className="main-card">
+		<Button name="Mariana Jane" age={23} favColor="Purple"/>
+		<Button name="Janeah" age={21} favColor="Light Blue"/>
+		<Button name="Jadeiana" age={26} favColor="Orange"/>
+	</div>
     </>
   )
 }

@@ -5,3 +5,20 @@ button {
 	border-radius: 5px;
 	padding: 12px;
 }
+
+.main-card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid red;
+	padding: 20px 0;
+}
+
+.card {
+	border: 1px solid lightblue;
+	padding: 12px;
+}
+
+h1 {
+	margin: 0;
+}

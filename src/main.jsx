@@ -8,8 +8,7 @@ console.log(React.version); // check the react version
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Heading Text</h1>
-    <App />
+       <App />
   </StrictMode>,
 )
 
