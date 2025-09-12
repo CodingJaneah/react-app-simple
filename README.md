@@ -12,9 +12,10 @@
 4. How to Style React App > index.css, \& app.css
 5. JavaScript Hooks > the useState
 6. How to import/export components and other files
-7. 
-7. 
-**#### Integrate TailwindCSS** 
+
+
+
+#### **Integrate TailwindCSS** 
 
 npm install tailwindcss @tailwindcss/vite 
 
