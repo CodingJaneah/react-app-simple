@@ -11,12 +11,14 @@ const UserList = () => {
 
 	return(
 		<>
-			<h1>This is the Array of Objects</h1>
+			<div className="bg-pink-600 mx-8 text-white p-3 rounded-md w-100">
+			<h1 className="text-white font-bold text-xl">This is the Array of Objects</h1>
 			<ul>
 				{students.map(student =>
 				<li key={student}>{student.name} is {student.age}</li>
 				)}
 			</ul>
+			</div>
 		</>
 	)
 	
