@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import './App.css'
 import Button from './Components/Button.jsx'
+import List from './Components/List.jsx'
+import UserList from './Components/UserList.jsx'
 
 function App() {
   // counter
@@ -23,6 +25,10 @@ function App() {
 	<br />
 	<div>Count: {click}</div>
 	<button id="increment" onClick={handleClick}>Increment</button>
+
+	<br />
+	<List />
+	<UserList />
     </>
   )
 }
